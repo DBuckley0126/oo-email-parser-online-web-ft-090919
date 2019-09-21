@@ -13,7 +13,8 @@ class EmailAddressParser
   end
 
   def parse
-    var = @email_addresses.scan(/b[^,]+/)
-    var
+    var = @email_addresses
+    var.scan(/b[^,"]+/)
+
   end
 end
