@@ -9,8 +9,9 @@ class EmailAddressParser
 
   def initialize (string)
     @email_addresses = string
+      binding.pry
   end
-  binding.pry
+
   def parse
     var = @email_addresses.scan(/b[^,]+/)
     var
