@@ -4,12 +4,13 @@
 # or whitespace (' ').
 
 class EmailParser
-
+  
   def initialize (string)
     @email_addresses = string
   end
 
   def parse
-    @email_addresses.scan(/b[^,]+/)
+    var = @email_addresses.scan(/b[^,]+/)
+    var
   end
 end
