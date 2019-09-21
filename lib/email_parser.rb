@@ -14,7 +14,7 @@ class EmailAddressParser
 
   def parse
     self.email_addresses.scan(/b[^,"]+/)
-    
+
 
   end
 end
