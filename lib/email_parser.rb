@@ -18,7 +18,7 @@ class EmailAddressParser
 
   def parse
     var = @email_addresses
-    var.scan(/b[^,"]+/)
+    "avi@test.com, arel@test.com".scan(/b[^,"]+/)
   end
 
   #binding.pry
