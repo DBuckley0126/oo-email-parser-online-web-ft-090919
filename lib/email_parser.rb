@@ -10,6 +10,7 @@ class EmailAddressParser
   end
 
   def parse
-    @email_addresses.scan(/b[^,]+/)
+    var = @email_addresses.scan(/b[^,]+/)
+    var
   end
 end
