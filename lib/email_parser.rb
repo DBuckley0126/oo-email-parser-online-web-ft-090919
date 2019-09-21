@@ -12,9 +12,11 @@ class EmailAddressParser
       binding.pry
   end
 
+  def email_addresses
+    @email_addresses
+  end
+
   def parse
     self.email_addresses.scan(/b[^,"]+/)
-
-
   end
 end
