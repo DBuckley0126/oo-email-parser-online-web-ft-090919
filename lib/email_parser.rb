@@ -17,7 +17,8 @@ class EmailAddressParser
   end
 
   def parse
-    self.email_addresses.scan(/b[^,"]+/)
+    @email_addresses.scan(/b[^,"]+/)
   end
-  binding.pry
+
+  #binding.pry
 end
